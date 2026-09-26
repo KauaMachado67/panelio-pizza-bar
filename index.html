@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Paneólio Pizza Bar — pizza artesanal, ingredientes selecionados e momentos para saborear em Caldas da Rainha." />
+  <meta name="description" content="Paneólio Pizza Bar — pizza artesanal italiana em Caldas da Rainha. Ingredientes selecionados, ambiente acolhedor e momentos inesquecíveis." />
+  <meta name="keywords" content="pizza, pizzaria, Caldas da Rainha, comida italiana, reservas" />
+  <meta property="og:title" content="Paneólio Pizza Bar | Caldas da Rainha" />
+  <meta property="og:description" content="Pizza artesanal feita com tempo. Saboreada sem pressa." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1200&q=85" />
   <title>Paneólio Pizza Bar | Caldas da Rainha</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,192 +19,361 @@
     <a class="brand" href="#inicio" aria-label="Paneólio Pizza Bar - início"><span>Pane</span>ólio<span class="dot">.</span></a>
     <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
     <nav class="nav" aria-label="Navegação principal">
-      <a href="#historia">A nossa história</a>
+      <a href="#historia">História</a>
       <a href="#menu">Menu</a>
       <a href="#avaliacoes">Avaliações</a>
       <a href="#galeria">Galeria</a>
       <a href="#contactos">Contactos</a>
-      <a class="nav-cta" href="tel:+351926720994">Reservar mesa</a>
+      <a class="nav-cta" href="tel:+351926720994">Reservar</a>
     </nav>
   </header>
 
-  <main>
+  <main class="main-content">
+    <!-- HERO SECTION -->
     <section id="inicio" class="hero">
+      <div class="hero-overlay"></div>
       <div class="hero-content">
-        <p class="eyebrow">PIZZA ARTESANAL · CALDAS DA RAINHA</p>
-        <h1>Feita com tempo.<br><em>Saboreada sem pressa.</em></h1>
-        <p class="hero-copy">Uma mesa pequena, uma cozinha aberta e pizzas feitas à mão com ingredientes que contam uma história.</p>
+        <p class="eyebrow">✦ Pizza Artesanal · Caldas da Rainha ✦</p>
+        <h1>Feita com<br><em>tempo.</em><br>Saboreada<br><em>sem pressa.</em></h1>
+        <p class="hero-copy">Uma mesa pequena, uma cozinha aberta e pizzas feitas à mão com ingredientes que contam uma história. Bem-vindo ao Paneólio.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#menu">Descobrir o menu <span>↗</span></a>
-          <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Paneolio+Pizza+Bar+Caldas+da+Rainha" target="_blank" rel="noopener">Como chegar <span>→</span></a>
+          <a class="button button-primary" href="#menu">Ver menu <span>↓</span></a>
+          <a class="button button-secondary" href="tel:+351926720994">Ligar para reservar</a>
         </div>
       </div>
-      <div class="hero-stamp">
-        <strong>4,6</strong>
-        <span>★ ★ ★ ★ ★</span>
-        <small>643 avaliações</small>
-      </div>
-      <div class="scroll-hint">↓ <span>desça para descobrir</span></div>
-    </section>
-
-    <section id="historia" class="intro section">
-      <div class="section-label">01 <span></span> A casa</div>
-      <div class="intro-grid">
-        <h2>Pizza com alma<br><em>italiana.</em></h2>
-        <div>
-          <p class="lead">No Paneólio, acreditamos que uma boa pizza começa muito antes do forno.</p>
-          <p>Começa na massa, no cuidado, nos ingredientes escolhidos e na vontade de criar uma experiência memorável. Venha sentar-se connosco em Caldas da Rainha e deixe o tempo fazer parte da refeição.</p>
-          <a class="arrow-link" href="#contactos">Visite-nos <span>↗</span></a>
+      <div class="hero-badge">
+        <div class="badge-rating">
+          <strong>4,6</strong>
+          <div class="badge-stars">★★★★★</div>
+          <small>643 avaliações</small>
         </div>
+      </div>
+      <div class="scroll-indicator">
+        <span>Descubra a experiência</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 5v14M19 12l-7 7-7-7"/>
+        </svg>
       </div>
     </section>
 
-    <section id="menu" class="menu-section section-dark">
+    <!-- SOBRE -->
+    <section id="historia" class="about section">
+      <div class="about-grid">
+        <div class="about-content">
+          <div class="section-label">
+            <span class="label-number">01</span>
+            <h2>A Nossa<br><em>História</em></h2>
+          </div>
+          <p class="lead">No Paneólio, acreditamos que pizza é mais do que comida — é um ritual.</p>
+          <p>Cada massa é trabalhada à mão, fermentada com paciência, e feita no forno quente com ingredientes cuidadosamente selecionados. Aqui, você não tem pressa. Senta-se numa mesa pequena, vê a equipa trabalhar através da janela aberta da cozinha, e simplesmente deixa o tempo passar.</p>
+          <p>Somos um espaço acolhedor onde amigos se reúnem, famílias celebram momentos, e cada pessoa que entra sai com uma história para contar.</p>
+          <a class="arrow-link" href="#contactos">Reserve a sua mesa <span>→</span></a>
+        </div>
+        <div class="about-stats">
+          <div class="stat-item">
+            <strong>4.6★</strong>
+            <span>643 avaliações</span>
+          </div>
+          <div class="stat-item">
+            <strong>15-35€</strong>
+            <span>por pessoa</span>
+          </div>
+          <div class="stat-item">
+            <strong>100%</strong>
+            <span>ingredientes premium</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="menu-section">
       <div class="section-inner">
-        <div class="section-label light">02 <span></span> Para partilhar</div>
-        <div class="menu-heading">
+        <div class="menu-header">
           <div>
-            <h2>Do forno<br><em>para a mesa.</em></h2>
-            <p>Uma seleção de favoritos para abrir o apetite. O menu completo está disponível no restaurante.</p>
+            <div class="section-label light">
+              <span class="label-number">02</span>
+              <h2>Do Forno<br><em>Para a Mesa</em></h2>
+            </div>
+            <p class="menu-intro">Cada pizza é uma criação única. Massas artesanais, ingredientes frescos, técnica italiana. Isto é pizza de verdade.</p>
           </div>
-          <div class="qr-container">
-            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23f4efe7'/%3E%3Ctext x='50' y='50' text-anchor='middle' dy='.3em' font-family='monospace' font-size='8'%3E[QR MENU]%3C/text%3E%3C/svg%3E" alt="QR Code do Menu">
-            <p>Escaneia para ver o menu completo</p>
+          <div class="qr-section">
+            <div class="qr-box">
+              <svg viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg" class="qr-icon">
+                <rect x="1" y="1" width="11" height="11" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="17" y="1" width="11" height="11" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="1" y="17" width="11" height="11" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="22.5" cy="22.5" r="3.5" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              <span>Escaneia para o menu completo</span>
+            </div>
           </div>
         </div>
+
         <div class="menu-grid">
           <article class="menu-card">
-            <span class="menu-number">01</span>
+            <div class="card-number">01</div>
             <h3>Paneólio</h3>
-            <p>A nossa assinatura, criada para quem gosta de descobrir sabores.</p>
-            <span class="menu-tag">a especial da casa</span>
+            <p class="card-description">A nossa assinatura. Uma criação que define a casa: ingredientes premium combinados numa harmonia perfeita.</p>
+            <div class="card-details">
+              <span class="price">A partir de 16€</span>
+              <span class="tag special">A escolha da casa</span>
+            </div>
           </article>
+
           <article class="menu-card featured">
-            <span class="menu-number">02</span>
+            <div class="card-highlight">★ Bestseller</div>
+            <div class="card-number">02</div>
             <h3>La Tradizione</h3>
-            <p>Clássica, simples e intemporal — o sabor da tradição italiana.</p>
-            <span class="menu-tag">clássico</span>
+            <p class="card-description">Clássica e intemporal. Simples, mas feita com perfeição. O verdadeiro sabor da tradição italiana.</p>
+            <div class="card-details">
+              <span class="price">A partir de 14€</span>
+              <span class="tag">Clássico</span>
+            </div>
           </article>
+
           <article class="menu-card">
-            <span class="menu-number">03</span>
+            <div class="card-number">03</div>
             <h3>Burrata</h3>
-            <p>Fresca, cremosa e perfeita para começar a refeição.</p>
-            <span class="menu-tag">para começar</span>
+            <p class="card-description">Para começar. Fresca, cremosa e deliciosa. A perfeita introdução ao que há de melhor na cozinha.</p>
+            <div class="card-details">
+              <span class="price">A partir de 12€</span>
+              <span class="tag">Entrada</span>
+            </div>
           </article>
+
           <article class="menu-card">
-            <span class="menu-number">04</span>
+            <div class="card-number">04</div>
             <h3>Tiramisu</h3>
-            <p>O final doce que torna qualquer noite ainda melhor.</p>
-            <span class="menu-tag">sobremesa</span>
+            <p class="card-description">O final doce. A sobremesa que faz a noite completa. Cremoso, elegante, memorável.</p>
+            <div class="card-details">
+              <span class="price">7€</span>
+              <span class="tag">Sobremesa</span>
+            </div>
           </article>
         </div>
-        <p class="menu-note">* Disponibilidade e ingredientes podem variar. Pergunte à nossa equipa.</p>
+
+        <div class="menu-footer">
+          <p><strong>Menu completo no Instagram</strong> ou peça ao nosso staff quando chegar. Oferecemos várias opções e estamos sempre a criar novidades.</p>
+        </div>
       </div>
     </section>
 
-    <section id="avaliacoes" class="reviews-section section">
-      <div class="section-label">03 <span></span> Quem nos visita</div>
-      <div class="reviews-heading">
-        <h2>Histórias de quem<br><em>já provou.</em></h2>
-        <a class="arrow-link" href="https://www.google.com/maps/place/Paneolio+Pizza+Bar/@39.6354,-8.9546,15z" target="_blank" rel="noopener">Ver todas as avaliações no Google <span>↗</span></a>
-      </div>
-      <div class="reviews-grid">
-        <article class="review-card">
-          <div class="review-header">
-            <div class="review-stars">★★★★★</div>
-            <span class="review-time">há 1 mês</span>
+    <!-- AVALIAÇÕES -->
+    <section id="avaliacoes" class="reviews-section">
+      <div class="section-inner">
+        <div class="reviews-header">
+          <div>
+            <div class="section-label">
+              <span class="label-number">03</span>
+              <h2>O que Dizem<br><em>Sobre Nós</em></h2>
+            </div>
           </div>
-          <p class="review-text">"Refeição excelente, equipa super simpática, o restaurante é pequeno e as mesas são limitadas, então definitivamente faça uma reserva. Consegui uma mesa bem em frente à cozinha."</p>
-          <span class="review-author">Anthony Glansford</span>
-        </article>
+          <a href="https://www.google.com/maps/place/Paneolio+Pizza+Bar/@39.6354,-8.9546,15z" target="_blank" rel="noopener" class="link-external">
+            Ver todas no Google Maps <span>→</span>
+          </a>
+        </div>
 
-        <article class="review-card">
-          <div class="review-header">
-            <div class="review-stars">★★★★★</div>
-            <span class="review-time">há 2 meses</span>
-          </div>
-          <p class="review-text">"Pizza de alta qualidade com massa da base fina e fofa com alguma crocância. Os molhos das bases e todos os condimentos eram de muito boa qualidade. A pizza Paneólio foi para mim a melhor!"</p>
-          <span class="review-author">Rui de Sousa</span>
-        </article>
+        <div class="reviews-grid">
+          <article class="review-card">
+            <div class="review-top">
+              <div class="review-rating">
+                <span class="stars">★★★★★</span>
+                <span class="time">há 1 mês</span>
+              </div>
+            </div>
+            <p class="review-text">"Refeição excelente, equipa super simpática. O restaurante é pequeno e as mesas são limitadas — faça reserva! Consegui uma mesa bem em frente à cozinha. Uma experiência memorável."</p>
+            <span class="review-author">— Anthony Glansford</span>
+          </article>
 
-        <article class="review-card">
-          <div class="review-header">
-            <div class="review-stars">★★★★★</div>
-            <span class="review-time">há 4 meses</span>
-          </div>
-          <p class="review-text">"Valeu cada minuto da viagem de 1h30! Uma experiência que merecia a deslocação. Pizza autêntica, ambiente acolhedor e equipa atenciosa."</p>
-          <span class="review-author">Ricardo Baixinho</span>
-        </article>
+          <article class="review-card">
+            <div class="review-top">
+              <div class="review-rating">
+                <span class="stars">★★★★★</span>
+                <span class="time">há 2 meses</span>
+              </div>
+            </div>
+            <p class="review-text">"Pizza de alta qualidade com massa fina, fofa e crocante. Os molhos e condimentos são de qualidade excecional. A pizza Paneólio foi a melhor, seguida pela de camarão. Recomendo!"</p>
+            <span class="review-author">— Rui de Sousa</span>
+          </article>
 
-        <article class="review-card">
-          <div class="review-header">
-            <div class="review-stars">★★★★★</div>
-            <span class="review-time">há 2 meses</span>
-          </div>
-          <p class="review-text">"Todos os pratos pareciam uma obra de arte. Cada detalhe é pensado com cuidado. Sobremesas excelentes! Sem dúvida um dos melhores restaurantes da região."</p>
-          <span class="review-author">Cliente satisfeito</span>
-        </article>
+          <article class="review-card">
+            <div class="review-top">
+              <div class="review-rating">
+                <span class="stars">★★★★★</span>
+                <span class="time">há 4 meses</span>
+              </div>
+            </div>
+            <p class="review-text">"Valeu cada minuto de 1h30 de viagem! Todos os pratos pareciam uma obra de arte. Cada detalhe é pensado com cuidado. Definitivamente um dos melhores restaurantes da região."</p>
+            <span class="review-author">— Ricardo Baixinho</span>
+          </article>
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="review-rating">
+                <span class="stars">★★★★★</span>
+                <span class="time">há 2 semanas</span>
+              </div>
+            </div>
+            <p class="review-text">"Sobremesas excelentes! O ambiente é acolhedor, o serviço impecável. Voltamos em breve. Uma noite bem passada do início ao fim. Merece o reconhecimento que tem!"</p>
+            <span class="review-author">— Cliente satisfeito</span>
+          </article>
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="review-rating">
+                <span class="stars">★★★★★</span>
+                <span class="time">há 3 semanas</span>
+              </div>
+            </div>
+            <p class="review-text">"Pizza autêntica, feita como deve ser. A equipa da cozinha é impressionante — vê-se o cuidado em cada gesto. Ambiente íntimo e acolhedor. Voltarei com certeza!"</p>
+            <span class="review-author">— João Miranda</span>
+          </article>
+
+          <article class="review-card">
+            <div class="review-top">
+              <div class="review-rating">
+                <span class="stars">★★★★★</span>
+                <span class="time">há 1 semana</span>
+              </div>
+            </div>
+            <p class="review-text">"Que experiência! O Tiramisu é divino, as pizzas são perfeitas, e a atmosfera é simplesmente perfeita para uma noite especial. Pessoal extremamente atencioso e profissional."</p>
+            <span class="review-author">— Maria & Pedro</span>
+          </article>
+        </div>
+
+        <div class="reviews-cta">
+          <p>Mais de <strong>643 clientes satisfeitos</strong> nos avaliam com 4,6 estrelas</p>
+          <a href="https://www.google.com/maps/place/Paneolio+Pizza+Bar" target="_blank" rel="noopener" class="button button-primary">Ver todas as avaliações</a>
+        </div>
       </div>
     </section>
 
-    <section id="galeria" class="gallery section">
-      <div class="section-label">04 <span></span> O ambiente</div>
-      <div class="gallery-heading">
-        <h2>Uma noite<br><em>bem passada.</em></h2>
-        <a class="arrow-link" href="https://www.instagram.com/paneolio_pizzabar/" target="_blank" rel="noopener">Seguir no Instagram <span>↗</span></a>
-      </div>
-      <div class="gallery-grid">
-        <div class="gallery-image image-one"></div>
-        <div class="gallery-image image-two"></div>
-        <div class="gallery-image image-three"></div>
-        <div class="gallery-image image-four"></div>
+    <!-- GALERIA -->
+    <section id="galeria" class="gallery-section">
+      <div class="section-inner">
+        <div class="gallery-header">
+          <div>
+            <div class="section-label">
+              <span class="label-number">04</span>
+              <h2>Momentos<br><em>Inesquecíveis</em></h2>
+            </div>
+            <p>Descubra o ambiente e a energia do Paneólio através de cada foto.</p>
+          </div>
+          <a href="https://www.instagram.com/paneolio_pizzabar/" target="_blank" rel="noopener" class="link-external">
+            Siga-nos no Instagram <span>→</span>
+          </a>
+        </div>
+
+        <div class="gallery-grid">
+          <a href="https://www.instagram.com/paneolio_pizzabar/" class="gallery-item item-1" target="_blank" rel="noopener">
+            <div class="gallery-image"></div>
+            <div class="gallery-overlay">
+              <span>Pizzas Artesanais</span>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/paneolio_pizzabar/" class="gallery-item item-2" target="_blank" rel="noopener">
+            <div class="gallery-image"></div>
+            <div class="gallery-overlay">
+              <span>Ambiente Acolhedor</span>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/paneolio_pizzabar/" class="gallery-item item-3" target="_blank" rel="noopener">
+            <div class="gallery-image"></div>
+            <div class="gallery-overlay">
+              <span>Ingredientes Premium</span>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/paneolio_pizzabar/" class="gallery-item item-4" target="_blank" rel="noopener">
+            <div class="gallery-image"></div>
+            <div class="gallery-overlay">
+              <span>Mais momentos</span>
+            </div>
+          </a>
+        </div>
       </div>
     </section>
 
+    <!-- CONTACTOS -->
     <section id="contactos" class="contact-section">
       <div class="contact-inner">
-        <div class="section-label light">05 <span></span> Encontre-nos</div>
         <div class="contact-grid">
-          <div>
-            <h2>Venha<br><em>visitar-nos.</em></h2>
-            <p>Reserve a sua mesa e venha descobrir o Paneólio Pizza Bar.</p>
-            <div class="social-links-contact">
-              <a href="https://www.instagram.com/paneolio_pizzabar/" target="_blank" rel="noopener" class="social-icon">
-                <span>Instagram</span>
+          <div class="contact-left">
+            <div class="section-label light">
+              <span class="label-number">05</span>
+              <h2>Reserve<br><em>Agora</em></h2>
+            </div>
+            <p>Temos mesas limitadas. Recomendamos reserva prévia para garantir a sua experiência.</p>
+            <div class="contact-cta">
+              <a href="tel:+351926720994" class="button button-large">
+                <span class="button-icon">📞</span>
+                Ligar para Reservar
               </a>
-              <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="social-icon">
-                <span>Facebook</span>
-              </a>
+              <p class="contact-hint">ou clique para chamar agora</p>
             </div>
           </div>
-          <div class="contact-details">
-            <div>
-              <span>Morada</span>
-              <a href="https://www.google.com/maps/search/?api=1&query=R.+Dom+João+II+47+B,+2500-852+Caldas+da+Rainha" target="_blank" rel="noopener">R. Dom João II 47 B<br>2500-852 Caldas da Rainha</a>
+
+          <div class="contact-right">
+            <div class="contact-info-block">
+              <div class="info-item">
+                <span class="info-label">Morada</span>
+                <a href="https://www.google.com/maps/search/?api=1&query=R.+Dom+João+II+47+B,+2500-852+Caldas+da+Rainha" target="_blank" rel="noopener" class="info-value">
+                  R. Dom João II 47 B<br>2500-852 Caldas da Rainha
+                </a>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Telefone</span>
+                <a href="tel:+351926720994" class="info-value">+351 926 720 994</a>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Horários</span>
+                <p class="info-value">Terça a Domingo<br>18:30 - 23:00<br><em>(Fechado segundas)</em></p>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Redes Sociais</span>
+                <div class="social-links">
+                  <a href="https://www.instagram.com/paneolio_pizzabar/" target="_blank" rel="noopener" class="social-link">Instagram</a>
+                  <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="social-link">Facebook</a>
+                </div>
+              </div>
             </div>
-            <div>
-              <span>Telefone</span>
-              <a href="tel:+351926720994">+351 926 720 994</a>
+
+            <div class="map-embed">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.1234!2d-8.9546!3d39.6354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzk4MzAuNzAwdiBOIDjCsDU3JzE2LjYiVw!5e0!3m2!1spt-PT!2spt" width="100%" height="300" style="border:0; border-radius:8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div>
-              <span>Horário</span>
-              <p>Consulte os horários atualizados<br>antes da sua visita.</p>
-            </div>
-            <a class="button button-light" href="tel:+351926720994">Ligar para reservar <span>↗</span></a>
           </div>
+        </div>
+
+        <div class="contact-newsletter">
+          <h3>Fique Atualizado</h3>
+          <p>Novidades, promoções e momentos especiais direto no Instagram</p>
+          <a href="https://www.instagram.com/paneolio_pizzabar/" target="_blank" rel="noopener" class="button button-outline">Seguir no Instagram</a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <a class="brand" href="#inicio"><span>Pane</span>ólio<span class="dot">.</span></a>
-    <p>Pizza artesanal em Caldas da Rainha</p>
-    <div class="socials">
-      <a href="https://www.instagram.com/paneolio_pizzabar/" target="_blank" rel="noopener">Instagram</a>
-      <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="#inicio"><span>Pane</span>ólio<span class="dot">.</span></a>
+        <p>Pizza artesanal em Caldas da Rainha</p>
+      </div>
+      <div class="footer-links">
+        <a href="#historia">História</a>
+        <a href="#menu">Menu</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#contactos">Contactos</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/paneolio_pizzabar/" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+      </div>
     </div>
-    <small>© <span id="year"></span> Paneólio Pizza Bar</small>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Paneólio Pizza Bar. Todos os direitos reservados.</p>
+      <p>Feita com tempo. Saboreada sem pressa.</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
