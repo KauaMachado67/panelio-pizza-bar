@@ -3,315 +3,275 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Paneólio Pizza Bar — pizza artesanal, ambiente acolhedor e encontros memoráveis em Caldas da Rainha." />
-    <meta name="theme-color" content="#bb5a3d" />
-    <title>Paneólio Pizza Bar | Caldas da Rainha</title>
+    <meta name="description" content="Habibi Restaurant — restaurante, bar e shisha em Caldas da Rainha." />
+    <title>Habibi Restaurant | Caldas da Rainha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#inicio" aria-label="Paneólio Pizza Bar - início">
-        <span>Pane</span>ólio<span class="dot">.</span>
+      <a href="#inicio" class="brand" aria-label="Habibi Restaurant Home">
+        <span class="brand-mark">H</span>
+        <span class="brand-text">Habibi</span>
       </a>
-      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
-      <nav class="nav" aria-label="Navegação principal">
-        <a href="#historia">História</a>
+
+      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+
+      <nav class="nav" aria-label="Menu principal">
+        <a href="#sobre">Sobre</a>
         <a href="#menu">Menu</a>
-        <a href="#premios">Prémios</a>
+        <a href="#destaques">Destaques</a>
         <a href="#avaliacoes">Avaliações</a>
         <a href="#contactos">Contactos</a>
-        <a class="nav-cta" href="tel:+351926720994">Reservar</a>
+        <a href="tel:+351920546797" class="nav-cta">Reservar</a>
       </nav>
     </header>
 
     <main>
-      <section id="inicio" class="hero">
-        <div class="hero-bg"></div>
-        <div class="hero-content">
-          <p class="eyebrow">PIZZA ARTESANAL · CALDAS DA RAINHA</p>
-          <h1>
-            Feita com tempo.<br />
-            <span>Provada com paixão.</span>
-          </h1>
-          <p class="hero-copy">
-            Cozinha italiana com sabor de autenticidade, ambiente acolhedor e uma experiência que fica na memória.
-          </p>
-          <div class="hero-actions">
-            <a href="#menu" class="button button-primary">Ver menu</a>
-            <a href="#contactos" class="button button-secondary">Reservar mesa</a>
-          </div>
-        </div>
-
-        <div class="hero-badge">
-          <div class="stars">★★★★★</div>
-          <strong>4,6</strong>
-          <span>643 avaliações</span>
-        </div>
-      </section>
-
-      <section id="historia" class="story section">
-        <div class="section-inner">
-          <div class="section-label">
-            <span class="label-number">01</span>
-            <h2>O sabor de<br /><em>uma casa</em></h2>
-          </div>
-
-          <div class="story-grid">
-            <div class="story-copy">
-              <p class="lead">No Paneólio, a pizza é tratada como arte: massa trabalhada à mão, fermentação cuidada e ingredientes que falam de autenticidade.</p>
-              <p>
-                Entre a cozinha e a mesa, nasce uma experiência honesta: ambiente íntimo, serviço atento, e uma cultura gastronómica que valoriza detalhe, tradição e prazer.
-              </p>
-              <p>
-                A nossa proposta é simples: um espaço para comer bem, conversar bem e voltar sempre.
-              </p>
-              <a href="#contactos" class="arrow-link">Agendar visita <span>→</span></a>
+      <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content section-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Restaurant • Bar • Shisha</p>
+            <h1>Para quem gosta de sabor, música e ambiente.</h1>
+            <p>
+              O Habibi reúne cozinha de inspiração asiática, pizzas, drinks, cocktails e uma experiência de noite que se prolonga bem depois do primeiro prato.
+            </p>
+            <div class="hero-actions">
+              <a href="#menu" class="button primary">Ver menu</a>
+              <a href="https://wa.me/351920546797" target="_blank" rel="noopener" class="button secondary">WhatsApp</a>
             </div>
+          </div>
 
-            <div class="story-stats">
-              <div class="stat-card">
-                <strong>47º</strong>
-                <span>na Europa</span>
-              </div>
-              <div class="stat-card">
-                <strong>50 Top</strong>
-                <span>Pizza Europa</span>
-              </div>
-              <div class="stat-card">
-                <strong>15–35€</strong>
-                <span>por pessoa</span>
-              </div>
+          <div class="hero-card">
+            <div class="rating-box">
+              <span class="stars">★★★★★</span>
+              <strong>4.6</strong>
+              <small>31 avaliações</small>
+            </div>
+            <div class="info-list">
+              <div><span>Preço</span><strong>10–15€</strong></div>
+              <div><span>Local</span><strong>Caldas da Rainha</strong></div>
+              <div><span>Horário</span><strong>Aberto por vezes</strong></div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="menu" class="menu-section">
+      <section class="about section" id="sobre">
         <div class="section-inner">
-          <div class="menu-header">
+          <div class="section-heading">
+            <span class="kicker">Sobre nós</span>
+            <h2>Um sabor que fica e uma noite que pede para repetir.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy">
+              <p>
+                O Habibi nasceu para ser mais do que um restaurante — é um espaço de encontro, bom ambiente e sabores marcantes. Entre biryanis, pizzas, drinks e shisha, a casa oferece uma experiência que combina comida, música e conversa em equilíbrio.
+              </p>
+              <p>
+                O espaço foi pensado para quem procura uma experiência confortável, acolhedora e especial, com um toque sofisticado e muito acolhedor.
+              </p>
+              <a href="#contactos" class="text-link">Reservar mesa <span>→</span></a>
+            </div>
+
+            <div class="stats-grid">
+              <div class="stat-box">
+                <strong>31</strong>
+                <span>Avaliações</span>
+              </div>
+              <div class="stat-box">
+                <strong>10–15€</strong>
+                <span>Por pessoa</span>
+              </div>
+              <div class="stat-box">
+                <strong>Bar</strong>
+                <span>& Shisha</span>
+              </div>
+              <div class="stat-box">
+                <strong>Indiano</strong>
+                <span>+ pizzas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-section section" id="menu">
+        <div class="section-inner">
+          <div class="section-heading split">
             <div>
-              <div class="section-label light">
-                <span class="label-number">02</span>
-                <h2>Menu de<br /><em>assinalar</em></h2>
-              </div>
-              <p class="menu-intro">As nossas melhores escolhas, pensadas para surpreender desde o primeiro bocado.</p>
+              <span class="kicker">Menu</span>
+              <h2>As melhores escolhas da casa.</h2>
             </div>
+            <a href="https://wa.me/351920546797" target="_blank" rel="noopener" class="text-link">Pedir por WhatsApp <span>→</span></a>
+          </div>
 
-            <div class="qr-box" aria-label="Menu em QR code">
-              <div class="qr-art">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <p>Escaneia para ver o menu</p>
-            </div>
+          <div class="menu-tabs" aria-label="Categorias do menu">
+            <button class="tab active" type="button">Todos</button>
+            <button class="tab" type="button">Biryani</button>
+            <button class="tab" type="button">Pizzas</button>
+            <button class="tab" type="button">Drinks</button>
+            <button class="tab" type="button">Cocktails</button>
+            <button class="tab" type="button">Burgers</button>
           </div>
 
           <div class="menu-grid">
-            <article class="menu-card featured">
-              <span class="card-tag">Bestseller</span>
-              <div class="card-number">01</div>
-              <h3>Paneólio</h3>
-              <p>Uma criação que reúne os melhores ingredientes, equilíbrio e identidade da casa.</p>
-              <div class="card-meta">
-                <span>A partir de 16€</span>
-                <span class="pill">Assinatura</span>
-              </div>
+            <article class="menu-card">
+              <span class="menu-badge">Assinatura</span>
+              <h3>Chicken Xacutti</h3>
+              <p>Prato com sabor intenso, especiarias e textura muito rica. Uma escolha imprescindível.</p>
+              <div class="menu-meta"><strong>12€</strong><span>Pratos principais</span></div>
             </article>
 
             <article class="menu-card">
-              <div class="card-number">02</div>
-              <h3>La Tradizione</h3>
-              <p>Tradicional, elegante e profunda no sabor — a expressão máxima da pizza clássica.</p>
-              <div class="card-meta">
-                <span>A partir de 14€</span>
-                <span class="pill">Clássica</span>
-              </div>
+              <span class="menu-badge">Popular</span>
+              <h3>Naan Garlic</h3>
+              <p>Pão aromático e irresistível, ideal para acompanhar os melhores pratos da casa.</p>
+              <div class="menu-meta"><strong>6€</strong><span>Entradas</span></div>
             </article>
 
             <article class="menu-card">
-              <div class="card-number">03</div>
-              <h3>Burrata</h3>
-              <p>Creme e frescura para abrir a refeição com uma textura refinada e sabor intenso.</p>
-              <div class="card-meta">
-                <span>A partir de 12€</span>
-                <span class="pill">Entrada</span>
-              </div>
+              <span class="menu-badge">Clássica</span>
+              <h3>Margherita Pizza</h3>
+              <p>Fresca, equilibrada e perfeita para quem gosta de pizza tradicional com qualidade.</p>
+              <div class="menu-meta"><strong>10€</strong><span>Pizzas</span></div>
             </article>
 
             <article class="menu-card">
-              <div class="card-number">04</div>
-              <h3>Tiramisu</h3>
-              <p>Final suave, delicado e memorável — uma sobremesa perfeita para fechar a noite.</p>
-              <div class="card-meta">
-                <span>7€</span>
-                <span class="pill">Sobremesa</span>
-              </div>
-            </article>
-          </div>
-
-          <div class="menu-bottom">
-            <p>Menu completo, novidades e sugestões da casa disponíveis na nossa equipa e no Instagram.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="premios" class="awards-section section">
-        <div class="section-inner">
-          <div class="section-label">
-            <span class="label-number">03</span>
-            <h2>Reconhecimento<br /><em>internacional</em></h2>
-          </div>
-
-          <div class="awards-grid">
-            <div class="award-card award-primary">
-              <div class="award-kicker">2026</div>
-              <h3>50 Top Pizza Europa</h3>
-              <p>Classificação destacada para a Paneólio Pizza Bar, reforçando a sua posição entre as melhores do continente.</p>
-            </div>
-
-            <div class="award-card">
-              <div class="award-kicker">Chef</div>
-              <h3>Beniamin Bilali</h3>
-              <p>Uma cozinha guiada por visão, disciplina e paixão — com um olhar atento à excelência.</p>
-            </div>
-
-            <div class="award-card">
-              <div class="award-kicker">Gastronomia</div>
-              <h3>Autenticidade</h3>
-              <p>Um espaço que celebra a cultura italiana, mas vive no coração de Caldas da Rainha.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="avaliacoes" class="reviews-section">
-        <div class="section-inner">
-          <div class="reviews-header">
-            <div class="section-label">
-              <span class="label-number">04</span>
-              <h2>O que dizem<br /><em>os clientes</em></h2>
-            </div>
-            <a href="https://www.google.com/maps/place/Paneolio+Pizza+Bar/@39.6354,-8.9546,15z" target="_blank" rel="noopener" class="link-external">Ver todas as avaliações <span>→</span></a>
-          </div>
-
-          <div class="reviews-grid">
-            <article class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p>“Refeição excelente, equipa super simpática, o restaurante é pequeno e as mesas são limitadas — faça reserva. Consegui uma mesa bem em frente à cozinha.”</p>
-              <span>Anthony Glansford</span>
+              <span class="menu-badge">Night vibe</span>
+              <h3>Habibi Cocktail</h3>
+              <p>Uma bebida com carácter, sabor intenso e presença ideal para encerrar a noite.</p>
+              <div class="menu-meta"><strong>8€</strong><span>Cocktails</span></div>
             </article>
 
-            <article class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p>“Pizza de alta qualidade com massa fina e fofa. Os molhos eram de muito boa qualidade e a paneólio foi para mim a melhor seguida pela pizza de camarão.”</p>
-              <span>Rui de Sousa</span>
+            <article class="menu-card">
+              <span class="menu-badge">Top</span>
+              <h3>Biryanis</h3>
+              <p>Receitas de grande presença, aromáticas e perfumadas, com sabor muito marcante.</p>
+              <div class="menu-meta"><strong>14€</strong><span>Biryani</span></div>
             </article>
 
-            <article class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p>“Valeu cada minuto da viagem. Pizza autêntica, ambiente acolhedor e equipa atenciosa. Uma experiência muito especial.”</p>
-              <span>Ricardo Baixinho</span>
-            </article>
-
-            <article class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p>“Todos os pratos pareciam uma obra de arte. Sobremesas excelentes. Sem dúvida um dos melhores restaurantes da região.”</p>
-              <span>Cliente Satisfeito</span>
+            <article class="menu-card">
+              <span class="menu-badge">A partir de</span>
+              <h3>Handcrafted Burgers</h3>
+              <p>Sanduíches bem montados, saborosos e ideais para quem gosta de comida reconfortante.</p>
+              <div class="menu-meta"><strong>11€</strong><span>Burgers</span></div>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="gallery-section section">
+      <section class="highlights section" id="destaques">
         <div class="section-inner">
-          <div class="gallery-header">
-            <div class="section-label">
-              <span class="label-number">05</span>
-              <h2>Ambiente,<br /><em>arte & sabor</em></h2>
-            </div>
-            <a href="https://www.instagram.com/paneolio_pizzabar/" target="_blank" rel="noopener" class="link-external">Siga o Instagram <span>→</span></a>
+          <div class="section-heading">
+            <span class="kicker">Destaques</span>
+            <h2>O que faz o Habibi ser tão especial.</h2>
           </div>
 
-          <div class="gallery-grid">
-            <div class="photo photo-one"></div>
-            <div class="photo photo-two"></div>
-            <div class="photo photo-three"></div>
-            <div class="photo photo-four"></div>
+          <div class="highlights-grid">
+            <div class="highlight-card dark">
+              <span class="mini-title">Shisha</span>
+              <h3>Vibe lounge</h3>
+              <p>Um ambiente ideal para encontros, música e conversa ao longo da noite.</p>
+            </div>
+            <div class="highlight-card warm">
+              <span class="mini-title">Cocktails</span>
+              <h3>Drinks premium</h3>
+              <p>Opções bem pensadas para quem quer uma noite mais especial e inesquecível.</p>
+            </div>
+            <div class="highlight-card gold">
+              <span class="mini-title">Cozinha</span>
+              <h3>Sabores marcantes</h3>
+              <p>Pratos intensos, aromáticos e preparados para surpreender.</p>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="contactos" class="contact-section">
+      <section class="reviews section" id="avaliacoes">
         <div class="section-inner">
-          <div class="contact-grid">
-            <div class="contact-copy">
-              <div class="section-label light">
-                <span class="label-number">06</span>
-                <h2>Reserve<br /><em>a sua mesa</em></h2>
-              </div>
-              <p>Uma noite especial merece um lugar à altura. Reserve com antecedência e venha provar a verdadeira essência da pizza italiana.</p>
-              <a href="tel:+351926720994" class="button button-light">Ligar para reservar</a>
+          <div class="section-heading split">
+            <div>
+              <span class="kicker">Avaliações</span>
+              <h2>O que os clientes dizem.</h2>
             </div>
+            <a href="https://www.google.com/maps" target="_blank" rel="noopener" class="text-link">Ver mais <span>→</span></a>
+          </div>
 
-            <div class="contact-card">
-              <div class="contact-item">
-                <span class="info-tag">Morada</span>
-                <a href="https://www.google.com/maps/search/?api=1&query=R.+Dom+João+II+47+B,+2500-852+Caldas+da+Rainha" target="_blank" rel="noopener">R. Dom João II 47 B<br />2500-852 Caldas da Rainha</a>
-              </div>
-              <div class="contact-item">
-                <span class="info-tag">Telefone</span>
-                <a href="tel:+351926720994">+351 926 720 994</a>
-              </div>
-              <div class="contact-item">
-                <span class="info-tag">Redes</span>
-                <div class="socials">
-                  <a href="https://www.instagram.com/paneolio_pizzabar/" target="_blank" rel="noopener">Instagram</a>
-                  <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
-                </div>
-              </div>
+          <div class="review-grid">
+            <article class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p>“Ambiente agradável com boa música indiana. O espaço tem vibe muito boa e a comida está deliciosa.”</p>
+              <strong>Monica Rebouças</strong>
+            </article>
+
+            <article class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p>“Super simpático, pão de alho fantástico e experiência muito boa. Vale muito a pena.”</p>
+              <strong>Lucy Luya</strong>
+            </article>
+
+            <article class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p>“Ambiente porreiro, cocktails e shisha correspondem, e voltarei certamente.”</p>
+              <strong>João Batista</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contactos">
+        <div class="section-inner contact-wrap">
+          <div class="contact-copy">
+            <span class="kicker light">Reservas</span>
+            <h2>Venha viver a experiência Habibi.</h2>
+            <p>Se procura comida saborosa, ambiente acolhedor e uma noite bem passada, o Habibi está pronto para receber-te.</p>
+            <div class="contact-actions">
+              <a href="tel:+351920546797" class="button primary">Ligar</a>
+              <a href="https://wa.me/351920546797" target="_blank" rel="noopener" class="button secondary">WhatsApp</a>
             </div>
           </div>
 
-          <div class="map-frame">
-            <iframe src="https://www.google.com/maps?q=R.%20Dom%20Jo%C3%A3o%20II%2047%20B,%202500-852%20Caldas%20da%20Rainha&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa do restaurante Paneólio Pizza Bar"></iframe>
+          <div class="contact-card">
+            <div class="contact-item">
+              <span class="label">Morada</span>
+              <a href="https://maps.google.com/?q=R.+de+Vitorino+Frois+56,+2500-256+Caldas+da+Rainha" target="_blank" rel="noopener">R. de Vitorino Frois 56, 2500-256 Caldas da Rainha</a>
+            </div>
+            <div class="contact-item">
+              <span class="label">Telefone</span>
+              <a href="tel:+351920546797">920 546 797</a>
+            </div>
+            <div class="contact-item">
+              <span class="label">Instagram</span>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener">@habibirestaurantcaldas</a>
+            </div>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="footer-inner">
+      <div class="section-inner footer-inner">
         <div class="footer-brand">
-          <a class="brand" href="#inicio"><span>Pane</span>ólio<span class="dot">.</span></a>
-          <p>Pizza artesanal em Caldas da Rainha.</p>
+          <a href="#inicio" class="brand footer-logo"><span class="brand-mark">H</span><span class="brand-text">Habibi</span></a>
+          <p>Restaurant • Bar • Shisha</p>
         </div>
 
         <nav class="footer-links" aria-label="Links do rodapé">
-          <a href="#historia">História</a>
+          <a href="#sobre">Sobre</a>
           <a href="#menu">Menu</a>
-          <a href="#premios">Prémios</a>
+          <a href="#destaques">Destaques</a>
           <a href="#contactos">Contactos</a>
         </nav>
 
-        <div class="footer-social">
-          <a href="https://www.instagram.com/paneolio_pizzabar/" target="_blank" rel="noopener">Instagram</a>
-          <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+        <div class="footer-contact">
+          <a href="tel:+351920546797">920 546 797</a>
+          <a href="https://wa.me/351920546797" target="_blank" rel="noopener">WhatsApp</a>
         </div>
-      </div>
-
-      <div class="footer-bottom">
-        <p>© <span id="year"></span> Paneólio Pizza Bar.</p>
-        <p>Feita com tempo. Saboreada com paixão.</p>
       </div>
     </footer>
 
