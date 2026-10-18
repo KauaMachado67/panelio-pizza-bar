@@ -1,276 +1,330 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-PT">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Habibi Restaurant — restaurante, bar e shisha em Caldas da Rainha." />
-    <title>Habibi Restaurant | Caldas da Rainha</title>
+    <meta
+      name="description"
+      content="Yo-Yo Kebab Pizzaria em Caldas da Rainha. Pizzas, doner, kebabs e entrega via Glovo e Uber Eats."
+    />
+    <title>Yo-Yo Kebab Pizzaria | Caldas da Rainha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Oswald:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <a href="#inicio" class="brand" aria-label="Habibi Restaurant Home">
-        <span class="brand-mark">H</span>
-        <span class="brand-text">Habibi</span>
-      </a>
+      <div class="container header-inner">
+        <a href="#top" class="brand" aria-label="Yo-Yo Kebab Pizzaria home">
+          <span class="brand-mark">Y</span>
+          <span class="brand-text">Yo-Yo</span>
+        </a>
 
-      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
 
-      <nav class="nav" aria-label="Menu principal">
-        <a href="#sobre">Sobre</a>
-        <a href="#menu">Menu</a>
-        <a href="#destaques">Destaques</a>
-        <a href="#avaliacoes">Avaliações</a>
-        <a href="#contactos">Contactos</a>
-        <a href="tel:+351920546797" class="nav-cta">Reservar</a>
-      </nav>
+        <nav class="nav" aria-label="Menu principal">
+          <a href="#sobre">Sobre</a>
+          <a href="#menu">Menu</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#contactos">Contactos</a>
+          <a href="tel:+351920220185" class="nav-cta">Ligar</a>
+        </nav>
+      </div>
     </header>
 
-    <main>
-      <section class="hero" id="inicio">
+    <main id="top">
+      <section class="hero">
         <div class="hero-overlay"></div>
-        <div class="hero-content section-inner">
+        <div class="container hero-content">
           <div class="hero-copy">
-            <p class="eyebrow">Restaurant • Bar • Shisha</p>
-            <h1>Para quem gosta de sabor, música e ambiente.</h1>
-            <p>
-              O Habibi reúne cozinha de inspiração asiática, pizzas, drinks, cocktails e uma experiência de noite que se prolonga bem depois do primeiro prato.
+            <p class="eyebrow">Pizzas • Kebabs • Doner</p>
+            <h1>Yo-Yo Kebab Pizzaria</h1>
+            <p class="subtitle">
+              O sabor que faz lembrar a boa comida de rua e o conforto da pizza caseira.
+              Dine-in, takeaway e entrega disponíveis.
             </p>
+
             <div class="hero-actions">
-              <a href="#menu" class="button primary">Ver menu</a>
-              <a href="https://wa.me/351920546797" target="_blank" rel="noopener" class="button secondary">WhatsApp</a>
+              <a href="#menu" class="btn btn-primary">Ver menu</a>
+              <a href="tel:+351920220185" class="btn btn-secondary">Ligar agora</a>
             </div>
           </div>
 
-          <div class="hero-card">
-            <div class="rating-box">
+          <div class="hero-info">
+            <div class="rating">
               <span class="stars">★★★★★</span>
-              <strong>4.6</strong>
-              <small>31 avaliações</small>
+              <strong>4.8</strong>
+              <small>Especialidade em pizzas e kebabs</small>
             </div>
-            <div class="info-list">
-              <div><span>Preço</span><strong>10–15€</strong></div>
-              <div><span>Local</span><strong>Caldas da Rainha</strong></div>
-              <div><span>Horário</span><strong>Aberto por vezes</strong></div>
+
+            <div class="hero-list">
+              <div>
+                <span>Horário</span>
+                <strong>11:00 – 16:00 / 18:00 – 23:00</strong>
+              </div>
+              <div>
+                <span>Local</span>
+                <strong>Caldas da Rainha</strong>
+              </div>
+              <div>
+                <span>Entrega</span>
+                <strong>Glovo / Uber Eats</strong>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="about section" id="sobre">
-        <div class="section-inner">
+      <section class="section intro" id="sobre">
+        <div class="container">
           <div class="section-heading">
-            <span class="kicker">Sobre nós</span>
-            <h2>Um sabor que fica e uma noite que pede para repetir.</h2>
+            <span class="kicker">Contacto & Localização</span>
+            <h2>Uma casa de sabor e ambiente descontraído.</h2>
           </div>
 
-          <div class="about-grid">
-            <div class="about-copy">
-              <p>
-                O Habibi nasceu para ser mais do que um restaurante — é um espaço de encontro, bom ambiente e sabores marcantes. Entre biryanis, pizzas, drinks e shisha, a casa oferece uma experiência que combina comida, música e conversa em equilíbrio.
-              </p>
-              <p>
-                O espaço foi pensado para quem procura uma experiência confortável, acolhedora e especial, com um toque sofisticado e muito acolhedor.
-              </p>
-              <a href="#contactos" class="text-link">Reservar mesa <span>→</span></a>
+          <div class="contact-grid">
+            <div class="contact-card dark">
+              <p><strong>Morada:</strong> R. Manuel Mafra 60, 2500-852 Caldas da Rainha</p>
+              <p><strong>Telefone:</strong> <a href="tel:+351920220185">+351 920 220 185</a></p>
+              <p><strong>Telefone:</strong> <a href="tel:+351262087712">+351 262 087 712</a></p>
+              <p><strong>Horário:</strong> Segunda a Domingo, 11:00 – 16:00 e 18:00 – 23:00</p>
             </div>
 
-            <div class="stats-grid">
-              <div class="stat-box">
-                <strong>31</strong>
-                <span>Avaliações</span>
-              </div>
-              <div class="stat-box">
-                <strong>10–15€</strong>
-                <span>Por pessoa</span>
-              </div>
-              <div class="stat-box">
-                <strong>Bar</strong>
-                <span>& Shisha</span>
-              </div>
-              <div class="stat-box">
-                <strong>Indiano</strong>
-                <span>+ pizzas</span>
+            <div class="contact-card light">
+              <p>Disfrute de uma experiência de pizza e kebab em ambiente casual, com atendimento rápido e sabores que marcam a casa.</p>
+              <div class="contact-actions">
+                <a href="tel:+351920220185" class="btn btn-primary">Ligar</a>
+                <a href="https://maps.google.com/?q=R.+Manuel+Mafra+60+2500-852+Caldas+da+Rainha" class="btn btn-secondary" target="_blank" rel="noopener">Ver mapa</a>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="menu-section section" id="menu">
-        <div class="section-inner">
+      <section class="section menu-section" id="menu">
+        <div class="container">
           <div class="section-heading split">
             <div>
               <span class="kicker">Menu</span>
-              <h2>As melhores escolhas da casa.</h2>
+              <h2>Os favoritos da casa</h2>
             </div>
-            <a href="https://wa.me/351920546797" target="_blank" rel="noopener" class="text-link">Pedir por WhatsApp <span>→</span></a>
+            <span class="menu-note">Entrega e takeaway disponíveis</span>
           </div>
 
-          <div class="menu-tabs" aria-label="Categorias do menu">
-            <button class="tab active" type="button">Todos</button>
-            <button class="tab" type="button">Biryani</button>
-            <button class="tab" type="button">Pizzas</button>
-            <button class="tab" type="button">Drinks</button>
-            <button class="tab" type="button">Cocktails</button>
-            <button class="tab" type="button">Burgers</button>
-          </div>
+          <div class="menu-layout">
+            <div class="menu-grid">
+              <article class="menu-item card-red">
+                <div class="menu-badge">Popular</div>
+                <h3>Doner Kebab</h3>
+                <p>Tradicional, saboroso e muito preenchido.</p>
+                <div class="menu-meta">
+                  <strong>4,00€</strong>
+                  <span>Menu</span>
+                </div>
+              </article>
 
-          <div class="menu-grid">
-            <article class="menu-card">
-              <span class="menu-badge">Assinatura</span>
-              <h3>Chicken Xacutti</h3>
-              <p>Prato com sabor intenso, especiarias e textura muito rica. Uma escolha imprescindível.</p>
-              <div class="menu-meta"><strong>12€</strong><span>Pratos principais</span></div>
-            </article>
+              <article class="menu-item card-red">
+                <div class="menu-badge">Popular</div>
+                <h3>Prato Kebab</h3>
+                <p>Refeição equilibrada e muito apreciada.</p>
+                <div class="menu-meta">
+                  <strong>6,00€</strong>
+                  <span>Menu</span>
+                </div>
+              </article>
 
-            <article class="menu-card">
-              <span class="menu-badge">Popular</span>
-              <h3>Naan Garlic</h3>
-              <p>Pão aromático e irresistível, ideal para acompanhar os melhores pratos da casa.</p>
-              <div class="menu-meta"><strong>6€</strong><span>Entradas</span></div>
-            </article>
+              <article class="menu-item card-red">
+                <div class="menu-badge">Popular</div>
+                <h3>Pizza Turca</h3>
+                <p>Pão, molho e ingredientes bem combinados.</p>
+                <div class="menu-meta">
+                  <strong>6,00€</strong>
+                  <span>Menu</span>
+                </div>
+              </article>
 
-            <article class="menu-card">
-              <span class="menu-badge">Clássica</span>
-              <h3>Margherita Pizza</h3>
-              <p>Fresca, equilibrada e perfeita para quem gosta de pizza tradicional com qualidade.</p>
-              <div class="menu-meta"><strong>10€</strong><span>Pizzas</span></div>
-            </article>
+              <article class="menu-item card-red">
+                <div class="menu-badge">Top</div>
+                <h3>Durum</h3>
+                <p>Recheio intenso e sabor a cada mordida.</p>
+                <div class="menu-meta">
+                  <strong>4,50€</strong>
+                  <span>Menu</span>
+                </div>
+              </article>
 
-            <article class="menu-card">
-              <span class="menu-badge">Night vibe</span>
-              <h3>Habibi Cocktail</h3>
-              <p>Uma bebida com carácter, sabor intenso e presença ideal para encerrar a noite.</p>
-              <div class="menu-meta"><strong>8€</strong><span>Cocktails</span></div>
-            </article>
+              <article class="menu-item card-red">
+                <div class="menu-badge">Top</div>
+                <h3>Doner Box</h3>
+                <p>Combinação prática e saborosa.</p>
+                <div class="menu-meta">
+                  <strong>4,00€</strong>
+                  <span>Menu</span>
+                </div>
+              </article>
 
-            <article class="menu-card">
-              <span class="menu-badge">Top</span>
-              <h3>Biryanis</h3>
-              <p>Receitas de grande presença, aromáticas e perfumadas, com sabor muito marcante.</p>
-              <div class="menu-meta"><strong>14€</strong><span>Biryani</span></div>
-            </article>
+              <article class="menu-item card-red">
+                <div class="menu-badge">Top</div>
+                <h3>Falafel</h3>
+                <p>Opção vegetariana e muito saborosa.</p>
+                <div class="menu-meta">
+                  <strong>4,00€</strong>
+                  <span>Menu</span>
+                </div>
+              </article>
+            </div>
 
-            <article class="menu-card">
-              <span class="menu-badge">A partir de</span>
-              <h3>Handcrafted Burgers</h3>
-              <p>Sanduíches bem montados, saborosos e ideais para quem gosta de comida reconfortante.</p>
-              <div class="menu-meta"><strong>11€</strong><span>Burgers</span></div>
-            </article>
+            <aside class="pizza-panel">
+              <div class="pizza-header">
+                <span class="pizza-badge">Pizzas</span>
+                <h3>Pizzas</h3>
+              </div>
+
+              <div class="pizza-list">
+                <div class="pizza-row">
+                  <span>1. Margarita</span>
+                  <div class="price-wrap">
+                    <small>6,00€</small>
+                    <strong>13,00€</strong>
+                  </div>
+                </div>
+                <div class="pizza-row">
+                  <span>2. Fíambre</span>
+                  <div class="price-wrap">
+                    <small>6,50€</small>
+                    <strong>14,00€</strong>
+                  </div>
+                </div>
+                <div class="pizza-row">
+                  <span>3. Salame</span>
+                  <div class="price-wrap">
+                    <small>6,50€</small>
+                    <strong>14,00€</strong>
+                  </div>
+                </div>
+                <div class="pizza-row">
+                  <span>4. Pizza 4 queijos</span>
+                  <div class="price-wrap">
+                    <small>7,00€</small>
+                    <strong>14,00€</strong>
+                  </div>
+                </div>
+                <div class="pizza-row">
+                  <span>5. Chouriço</span>
+                  <div class="price-wrap">
+                    <small>7,00€</small>
+                    <strong>14,00€</strong>
+                  </div>
+                </div>
+                <div class="pizza-row">
+                  <span>6. Capricciosa</span>
+                  <div class="price-wrap">
+                    <small>7,00€</small>
+                    <strong>14,00€</strong>
+                  </div>
+                </div>
+                <div class="pizza-row">
+                  <span>7. Atum</span>
+                  <div class="price-wrap">
+                    <small>7,00€</small>
+                    <strong>14,00€</strong>
+                  </div>
+                </div>
+                <div class="pizza-row">
+                  <span>8. Pizza Mar</span>
+                  <div class="price-wrap">
+                    <small>7,50€</small>
+                    <strong>14,00€</strong>
+                  </div>
+                </div>
+                <div class="pizza-row">
+                  <span>9. Hawai</span>
+                  <div class="price-wrap">
+                    <small>7,50€</small>
+                    <strong>14,00€</strong>
+                  </div>
+                </div>
+                <div class="pizza-row">
+                  <span>10. Quatro Estações</span>
+                  <div class="price-wrap">
+                    <small>7,50€</small>
+                    <strong>14,00€</strong>
+                  </div>
+                </div>
+                <div class="pizza-row">
+                  <span>11. Vegetariana</span>
+                  <div class="price-wrap">
+                    <small>7,50€</small>
+                    <strong>14,00€</strong>
+                  </div>
+                </div>
+                <div class="pizza-row">
+                  <span>12. Roma</span>
+                  <div class="price-wrap">
+                    <small>7,50€</small>
+                    <strong>14,00€</strong>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pizza-footer">
+                <span>Extra Ingredientes Pizza Pequena +1,00€</span>
+                <span>Extra Ingredientes Pizza Grande +2,00€</span>
+              </div>
+            </aside>
           </div>
         </div>
       </section>
 
-      <section class="highlights section" id="destaques">
-        <div class="section-inner">
+      <section class="section services" id="servicos">
+        <div class="container">
           <div class="section-heading">
-            <span class="kicker">Destaques</span>
-            <h2>O que faz o Habibi ser tão especial.</h2>
+            <span class="kicker">Serviços</span>
+            <h2>Conveniente para o seu dia a dia.</h2>
           </div>
 
-          <div class="highlights-grid">
-            <div class="highlight-card dark">
-              <span class="mini-title">Shisha</span>
-              <h3>Vibe lounge</h3>
-              <p>Um ambiente ideal para encontros, música e conversa ao longo da noite.</p>
-            </div>
-            <div class="highlight-card warm">
-              <span class="mini-title">Cocktails</span>
-              <h3>Drinks premium</h3>
-              <p>Opções bem pensadas para quem quer uma noite mais especial e inesquecível.</p>
-            </div>
-            <div class="highlight-card gold">
-              <span class="mini-title">Cozinha</span>
-              <h3>Sabores marcantes</h3>
-              <p>Pratos intensos, aromáticos e preparados para surpreender.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="reviews section" id="avaliacoes">
-        <div class="section-inner">
-          <div class="section-heading split">
-            <div>
-              <span class="kicker">Avaliações</span>
-              <h2>O que os clientes dizem.</h2>
-            </div>
-            <a href="https://www.google.com/maps" target="_blank" rel="noopener" class="text-link">Ver mais <span>→</span></a>
-          </div>
-
-          <div class="review-grid">
-            <article class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p>“Ambiente agradável com boa música indiana. O espaço tem vibe muito boa e a comida está deliciosa.”</p>
-              <strong>Monica Rebouças</strong>
+          <div class="service-grid">
+            <article class="service-box">
+              <h3>Dine-in</h3>
+              <p>Espaço acolhedor para comer no local.</p>
             </article>
-
-            <article class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p>“Super simpático, pão de alho fantástico e experiência muito boa. Vale muito a pena.”</p>
-              <strong>Lucy Luya</strong>
+            <article class="service-box">
+              <h3>Takeaway</h3>
+              <p>Levantamento rápido no balcão.</p>
             </article>
-
-            <article class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p>“Ambiente porreiro, cocktails e shisha correspondem, e voltarei certamente.”</p>
-              <strong>João Batista</strong>
+            <article class="service-box">
+              <h3>Entrega</h3>
+              <p>Disponível via Glovo e Uber Eats.</p>
             </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="contact section" id="contactos">
-        <div class="section-inner contact-wrap">
-          <div class="contact-copy">
-            <span class="kicker light">Reservas</span>
-            <h2>Venha viver a experiência Habibi.</h2>
-            <p>Se procura comida saborosa, ambiente acolhedor e uma noite bem passada, o Habibi está pronto para receber-te.</p>
-            <div class="contact-actions">
-              <a href="tel:+351920546797" class="button primary">Ligar</a>
-              <a href="https://wa.me/351920546797" target="_blank" rel="noopener" class="button secondary">WhatsApp</a>
-            </div>
-          </div>
-
-          <div class="contact-card">
-            <div class="contact-item">
-              <span class="label">Morada</span>
-              <a href="https://maps.google.com/?q=R.+de+Vitorino+Frois+56,+2500-256+Caldas+da+Rainha" target="_blank" rel="noopener">R. de Vitorino Frois 56, 2500-256 Caldas da Rainha</a>
-            </div>
-            <div class="contact-item">
-              <span class="label">Telefone</span>
-              <a href="tel:+351920546797">920 546 797</a>
-            </div>
-            <div class="contact-item">
-              <span class="label">Instagram</span>
-              <a href="https://www.instagram.com/" target="_blank" rel="noopener">@habibirestaurantcaldas</a>
-            </div>
+            <article class="service-box">
+              <h3>Counter Service</h3>
+              <p>Atendimento direto e muito prático.</p>
+            </article>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="section-inner footer-inner">
-        <div class="footer-brand">
-          <a href="#inicio" class="brand footer-logo"><span class="brand-mark">H</span><span class="brand-text">Habibi</span></a>
-          <p>Restaurant • Bar • Shisha</p>
+    <footer class="site-footer" id="contactos">
+      <div class="container footer-inner">
+        <div>
+          <a href="#top" class="footer-brand">Yo-Yo Kebab Pizzaria</a>
+          <p>R. Manuel Mafra 60, 2500-852 Caldas da Rainha</p>
         </div>
 
-        <nav class="footer-links" aria-label="Links do rodapé">
-          <a href="#sobre">Sobre</a>
-          <a href="#menu">Menu</a>
-          <a href="#destaques">Destaques</a>
-          <a href="#contactos">Contactos</a>
-        </nav>
+        <div class="footer-links">
+          <a href="tel:+351920220185">+351 920 220 185</a>
+          <a href="tel:+351262087712">+351 262 087 712</a>
+        </div>
 
-        <div class="footer-contact">
-          <a href="tel:+351920546797">920 546 797</a>
-          <a href="https://wa.me/351920546797" target="_blank" rel="noopener">WhatsApp</a>
+        <div class="footer-links">
+          <a href="https://maps.google.com/?q=R.+Manuel+Mafra+60+2500-852+Caldas+da+Rainha" target="_blank" rel="noopener">Mapa</a>
+          <a href="https://www.ubereats.com" target="_blank" rel="noopener">Uber Eats</a>
+          <a href="https://glovoapp.com" target="_blank" rel="noopener">Glovo</a>
         </div>
       </div>
     </footer>

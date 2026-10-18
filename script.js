@@ -8,7 +8,7 @@ if (toggle && nav) {
     toggle.textContent = isOpen ? '×' : '☰';
   });
 
-  document.querySelectorAll('.nav a').forEach((link) => {
+  nav.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', () => {
       nav.classList.remove('open');
       toggle.setAttribute('aria-expanded', 'false');
@@ -16,10 +16,3 @@ if (toggle && nav) {
     });
   });
 }
-
-document.querySelectorAll('.tab').forEach((tab) => {
-  tab.addEventListener('click', () => {
-    document.querySelectorAll('.tab').forEach((item) => item.classList.remove('active'));
-    tab.classList.add('active');
-  });
-});
